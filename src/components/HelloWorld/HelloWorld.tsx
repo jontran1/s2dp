@@ -1,9 +1,8 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import styles from './HelloWorld.module.scss';
 
-interface HelloWorldProps {}
 
-const HelloWorld: FC<HelloWorldProps> = () => (
+const HelloWorld: FC = () => (
   <div className={styles.HelloWorld}>
     HelloWorld Component
   </div>
